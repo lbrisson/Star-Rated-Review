@@ -1,0 +1,56 @@
+.oneStar {
+  color: #4696ec;
+}
+
+.ratingButton:hover {
+  color: #e53b2f;
+}
+
+.viewCommentsButton:hover {
+  color: #e53b2f;
+}
+
+.BackButton {
+  background-color: #4696ec;
+  color: white;
+}
+
+.BackButton:hover {
+  background-color: #e53b2f;
+  color: white;
+}
+
+.postCommentBtn {
+  background-color: #4696ec;
+  color: white;
+}
+
+.postCommentBtn:hover {
+  background-color: #e53b2f;
+  color: white;
+}
+
+.CommentForm {
+  padding-top: 40px;
+}
+
+.CommentSectionHeader {
+  background-color: #e53b2f;
+}
+
+
+.Ratings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+}
